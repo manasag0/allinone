@@ -58,8 +58,7 @@ let add = function(num1, num2){
 }
 console.log(add(5,6))
 //call back functions
-//A callback function is a function that is passed as an argument to another function and this function is executed inside the parent function. Callback functions are
-//A callback function is a function that is passed as an argument to another function and this function is executed inside the parent function. Callback functions
+//A callback function is a function that is passed as an argument to another function and this function is executed inside the parent function.
 //functions that are passed as arguments to another function so they can be executed later
 setTimeout(function() {
    console.log('I am from Callback')
