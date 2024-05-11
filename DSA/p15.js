@@ -2,3 +2,5 @@
 //14.4.2024
 
 // did nothing
+
+console.log(1+2+'3'-4+5)
