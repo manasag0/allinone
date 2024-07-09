@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main_heading {
+            font-size: 30px;
+            color: blueviolet;
+        }
+        .main_class {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const h2 = document.createElement('h2');
+            h2.innerText = "Hello First World";  // Corrected text and added semicolon
+            h2.setAttribute('id', 'main_heading');
+            h2.setAttribute('class', 'main_class');
+            document.body.appendChild(h2);
+            
+            const target = document.querySelector('body');
+            function handleClick() {
+                console.log('click event listener body');
+            }
+            target.addEventListener('click', handleClick);
+            console.log("test one");
+        });
+    </script>
+</body>
+</html>
